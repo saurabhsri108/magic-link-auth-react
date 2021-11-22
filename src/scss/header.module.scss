@@ -1,0 +1,20 @@
+@import './variable';
+
+.header {
+  background: $bg-dark;
+  color: $bg-light;
+}
+
+.container {
+  display: flex;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: space-between;
+  max-width: 1440px;
+  width: 100%;
+}
+
+.logo {
+  color: $bg-light;
+  font-weight: bold;
+}
